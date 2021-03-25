@@ -1,0 +1,2 @@
+$("#post_edit").empty()
+$("#post_edit").append("<%= escape_javascript(render partial: 'posts/edit', locals: { post: @post } ) %>")

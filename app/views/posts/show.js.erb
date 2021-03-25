@@ -1,0 +1,2 @@
+$("#post_show").empty()
+$("#post_show").append("<%= escape_javascript(render partial: 'posts/show', locals: { post: @post } ) %>")
